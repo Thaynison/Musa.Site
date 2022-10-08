@@ -59,7 +59,7 @@ body {
     background-image: url("../assets/wavy-purple-by-thaynison.png") !important;
     background-position: bottom !important;
     background-size: 300% !important;
-    background-repeat: no-repeat !important;
+    background-repeat: no-repeat !important;]
 }
 
 .title {
@@ -74,6 +74,19 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.title2 {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important;
+    text-align: center;
+}
+
+.subtitle2 {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
 
 .features {
     text-align: center !important;
@@ -169,7 +182,8 @@ body {
     border: 4px solid #ff0088;
 }
 .features .card-text {
-color: rgba(255, 255, 255, 0.46) !important
+color: rgba(255, 255, 255, 0.46) !important;
+text-align: center !important;
 }
 
 .features .card-body {
