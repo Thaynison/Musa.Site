@@ -14,13 +14,14 @@ body {
      background: transparent !important;
      font-family: Lato, sans-serif !important;
      text-transform: capitalize !important;
+     text-align: center;
  }
  .nav-link:hover {
      background: transparent !important;
      color: #AD91FF !important;
      font-weight: bold !important;
  }
-
+ 
  .login-btn {
      border: 2px solid #ff0088 !important;
      font-size: 10px !important;
@@ -54,11 +55,21 @@ body {
     background-color: #2C2F33 !important
 }
 .heading {
+    height: 600px;
+    width: 100%;
     padding: 160px 50px !important;
     color: #fff !important;
-    background-image: url("../assets/wavy-purple-by-thaynison.png") !important;
+    background-image: url("../assets/wavy-purple-by-musa.png") !important;
     background-position: bottom !important;
-    background-size: 300% !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.heading2 {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-position: bottom !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 
@@ -89,12 +100,14 @@ body {
 }
 
 .features {
+    height: 700px;
+    width: 100%;
     text-align: center !important;
     background: #ff0088 !important;
     padding: 60px 50px !important;
-    background-image: url("../assets/wavy-dark-by-thaynison.svg") !important;
+    background-image: url("../assets/wavy-dark-by-musa.svg") !important;
     background-position: bottom !important;
-    background-size: 200% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 .features .title {
@@ -162,9 +175,9 @@ body {
 
 
 .page_end {
-    background-image: url("../assets/wavy-light-by-thaynison.svg") !important;
+    background-image: url("../assets/wavy-light-by-musa.svg") !important;
     background-position: bottom !important;
-    background-size: 200% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 .start {
@@ -184,7 +197,15 @@ body {
 .features .card-text {
 color: rgba(255, 255, 255, 0.46) !important;
 text-align: center !important;
+
 }
+.features .card-text-musa {
+    color: rgba(255, 255, 255, 0.46) !important;
+    text-align: center !important;
+    line-height: 18px !important;
+
+    
+    }
 
 .features .card-body {
     padding: 40px 40px 40px 30px !important;
@@ -195,12 +216,11 @@ text-align: center !important;
 }
 .footer {
     text-align: center !important;
-    padding: 5px 6px !important;
     color: #ecf2ff;
     padding: 30px 30px !important
 }
 
-.footer .thaynison {
+.footer .musa {
     font-family: 'Montserrat' !important;
     font-style: normal !important;
     font-weight: 600 !important;
@@ -210,12 +230,12 @@ text-align: center !important;
     font-variant: small-caps !important;
 }
 
-.footer .thaynison a {
+.footer .musa a {
     color: #ff0088 !important;
     text-decoration: none !important;
 }
 
 .footer .bot-footer {
-    text-align: center !important;
+    text-align: center !important;    text-align: center !important;
     color: #a2a8bd !important
 }
