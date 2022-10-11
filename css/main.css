@@ -7,6 +7,7 @@ body {
     text-rendering: optimizeLegibility;
     border-top: 6px #ff0088 solid !important;
     font-size: 16px;
+    width:100%;
 }
 
 .nav-link {
@@ -55,13 +56,12 @@ body {
     background-color: #2C2F33 !important
 }
 .heading {
-    height: 600px;
-    width: 100%;
-    padding: 160px 50px !important;
+    height: 800px;
+    padding: 160px 90px !important;
     color: #fff !important;
     background-image: url("../assets/wavy-purple-by-musa.png") !important;
     background-position: bottom !important;
-    background-size: 160% !important;
+    background-size: 300% !important;
     background-repeat: no-repeat !important;
 }
 
@@ -74,12 +74,15 @@ body {
 }
 
 .title {
-    line-height: 90px !important;
+    line-height: 50px !important;
     margin-bottom: -2px !important;
     font-size: 36px !important
 }
 
 .subtitle {
+    margin-top: 20px;
+    height: 100px;
+    margin-top: -19;
     color: rgba(255, 255, 255, 0.685) !important;
     font-size: 16px !important;
     font-family: 'Lato', sans-serif;
@@ -100,13 +103,13 @@ body {
 }
 
 .features {
-    height: 800px;
+    width:100%;
     text-align: center !important;
     background: #ff0088 !important;
     padding: 60px 50px !important;
     background-image: url("../assets/wavy-dark-by-musa.svg") !important;
     background-position: bottom !important;
-    background-size: 160% !important;
+    background-size: 300% !important;
     background-repeat: no-repeat !important;
     
 }
@@ -128,8 +131,9 @@ body {
 .features .card-title {
     margin: 0 0 -3px !important;
 }
+
 .cards {
-    margin-top: 30px !important;
+    margin-top: 20px !important;
 }
 
 .card {
@@ -145,7 +149,7 @@ body {
 
 .statistics {
     text-align: center !important;
-    padding-top: 300px !important;
+    padding-top: 100px !important;
 }
 
 .statistics .card-body{
