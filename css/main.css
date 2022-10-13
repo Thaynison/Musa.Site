@@ -124,10 +124,6 @@ body {
     color: #a2a8bd;
 }
 
-.features .card-body {
-    text-align: left !important;
-}
-
 .features .card-title {
     margin: 0 0 -3px !important;
 }
@@ -212,6 +208,7 @@ text-align: center !important;
 }
 
 .features .card-body {
+    text-align: left !important;
     padding: 40px 40px 40px 30px !important;
 }
 
@@ -242,4 +239,19 @@ text-align: center !important;
 .footer .bot-footer {
     text-align: center !important;    text-align: center !important;
     color: #a2a8bd !important
+}
+
+.features .card-body-termos {
+    text-align: left !important;
+    padding: 40px 40px 40px 30px !important;
+    height: 290px !important;
+    width: 900px !important;
+}
+
+.statistics .card-body-termos{
+    padding: 0 !important;
+    height: 290 !important;
+    width: 332 !important;
+    max-height: 280 !important;
+    max-width: 332 !important;
 }
