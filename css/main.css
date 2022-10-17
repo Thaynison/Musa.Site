@@ -143,6 +143,14 @@ body {
     color: #ff0088 !important;
 }
 
+.card-title-musa {
+    margin-top: 20px;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #ff0088 !important;
+    text-align: center !important;
+}
+
 .statistics {
     text-align: center !important;
     padding-top: 100px !important;
